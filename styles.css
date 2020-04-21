@@ -1,0 +1,369 @@
+body,html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #daf8f8;
+    margin-left:20;   
+  }
+ 
+ p{
+     margin: 0;
+ }
+
+ h1 { color: #071a52; font-family: 'Trocchi', serif; 
+      font-size: 36px; font-weight: bold;
+       line-height: 48px; 
+       margin: 0;
+       text-decoration: underline;
+ }
+ h2 { color: #071a52; 
+  font-family: Georgia, serif; 
+  font-size: 19px;
+   line-height: 8px; 
+   margin: 0;
+   text-decoration: none;
+  
+}
+h7 { color: #071a52; 
+  font-family: Georgia, serif; 
+  font-size: 28px;
+  font-weight: bolder;
+   line-height: 8px; 
+   margin: 0;
+   text-decoration: none;
+  
+}
+h3 { color: #071a52;
+   font-family: 'Trocchi', serif; 
+  font-size: 29px; font-weight: bold;
+   line-height: 0px; 
+   margin: 0;
+   color: whitesmoke;
+  }
+h4{
+  color: #071a52;
+   font-family:  Arial, Helvetica, sans-serif;; 
+  font-size: 19px; ;
+   line-height: 8px; 
+   margin: 0;
+}
+h5 { color: #113397;
+  font-family: 'Trocchi', serif; 
+ font-size: 18px; font-weight: bolder;
+  line-height: 0px; 
+  margin: 0;
+  
+ }
+  p.a{
+      font-family: Verdana, sans-serif;
+      font-size: 26px;
+      color:#30475e;
+      font-weight: bold;
+
+  }
+  p.b{
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    color:#30475e;  
+    
+  }
+  p.c{
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 24px;
+    color: #155263;
+    text-decoration: underline;
+    text-decoration-color: #155263;
+    font-weight: bold;
+}
+  p.d{
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      font-size: 20px;
+      color: #848cdd;
+}
+p.f{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: #071a52;
+}
+ 
+    p.e{
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #35477d;
+  }
+  ul.a{
+      list-style-type: circle;
+      color:#848cdd;
+  }
+  ul.b{
+    list-style-type: square;
+    color:#848cdd;
+}
+  ol.a{
+      list-style-type: decimal;
+      color:#30475e;  
+      
+  }
+
+  .button {
+    background-color: #848cdd; 
+    border: none;
+    color: #071a52;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    border-radius: 12px;}
+  
+  .navbar {
+    overflow: hidden;
+    background-color: #2667b8;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #3d84a8;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  img.a {
+    border-radius: 50%;
+  }
+  img.b {
+    border-radius: 8px;
+  }
+
+  hr{
+  height: 30px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width:5px;
+  width: 15%;
+  }
+
+  hr.a{
+    border: 0;
+    height: 2px;
+    width: auto;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0px 0;
+    box-sizing: border-box;
+    border: 2px solid #848cdd;
+    border-radius: 16px;
+    background-color: #daf8f8;
+    color: #071a52;
+    font-family:"Comic Sans MS", cursive, sans-serif; 
+    font-size: 16px;
+  }
+  input[type=date]{
+      background-color: #b2ebeb;
+      color: #071a52;
+      border: 2px solid #848cdd;
+  }
+  input[type=radio]{
+    background-color: #b2ebeb;
+    color: #071a52;
+    border: 2px solid #848cdd;
+}
+
+  .box{
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .box select{
+    background: #848cdd;
+    border: 2px solid #071a52;
+    color:#fff;
+    padding:10px;
+    width: 250px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    -webkit-appearance: button;
+    outline: none;
+  }
+  .box:before{
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #071a52;
+    pointer-events: none;
+  }
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 20px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #9baee9;
+    border-radius: 50%;
+  }
+  
+  .container:hover input ~ .checkmark {
+    background-color: #b2ebeb;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #848cdd;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+     top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+  }
+
+  .header {
+    padding: 1px;
+    text-align: center;
+    background: #4f98ca;
+    color: white;
+    margin: 0;
+  }
+
+  .stitched{
+    padding: 12px;
+    width: 98%;
+    margin: 0px;
+    background: #bae8e8;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px #bae8e8, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px #10316b;
+    font-size: 32px;
+    font-weight: normal;
+ }
+
+ .stitched1 {
+  padding: 30px;
+  width: 100%;
+  margin: 10px;
+  background: #98d6ea;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #88d6f0, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  
+  font-size: 32px;
+  font-weight: normal;
+}
+
+ a {
+  color: white;
+  padding: 0;
+  text-decoration: none;
+  text-transform: uppercase;
+ } 
+
+ .content {
+  padding: 20px;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.footer,
+.push {
+  padding: 2px;
+  height: 60px;
+  background-color: #babff0;
+   color: white;
+}
+
+
+
+
+
+ 
